@@ -28,7 +28,7 @@ export const GlobalProvider = ({ children }) => {
             dispatch({
                 type: 'TRANSACTION_ERROR',
                 payload: err.response.data.error
-            })
+            });
         }
     }
 
